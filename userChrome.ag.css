@@ -1,0 +1,30 @@
+tooltip {
+  -moz-default-appearance: none;
+  display: -moz-popup;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #1E2021;
+  color: #afc0d5;
+  border: none;
+  border-radius: 0;
+  max-width: max(20vw, 30em);
+  padding:  4px 10px 4px 10px !important;
+  pointer-events: none;
+  font-family: JetBrains Mono !important;
+  --uc-tooltip-inner-padding: 4px 7px 6px 7px;
+}
+
+tooltip:not([position]) {
+  margin-block-start: 16px;
+  margin-inline-start: -5px;
+}
+
+tooltip > description {
+  background-color: var(--tooltip-bgcolor);
+  color: var(--tooltip-color);
+  border: 1px solid var(--tooltip-border-color);
+  border-radius: var(--tooltip-border-radius);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding:  4px 10px 4px 10px !important;
+  margin: 0;
+}

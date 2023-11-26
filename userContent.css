@@ -1,0 +1,69 @@
+@import "config.css";
+
+*{
+    scrollbar-width: 3px !important;
+}
+
+@-moz-document url-prefix("moz-extension://e25549b9-4129-4b33-918c-ebe9703e1adb"){
+    html[data-theme=dark] {
+        --color-hr: var(--light-3) !important;
+    
+        --fill-color: var(--light-1) !important;
+    
+        --background-color: var(--dark-1) !important;
+        --text-color: var(--light-base) !important;
+    
+        --input-background-color: var(--dark-2) !important;
+        --input-text-color: var(--text-color);
+    
+        --outline-color: var(--text-color);
+    
+        --background-color-other: var(--input-background-color);
+    }
+
+    html[data-theme="dark"] {
+        --item-background-color-active: var(--dark-2) !important;
+        --item-background-color-active-hover: var(--dark-3) !important;
+    }
+
+    html[data-theme="dark"] .input, html[data-theme="dark"] .textarea, html[data-theme="dark"] .button {
+        border-color: var(--light-3) !important;
+    }
+
+    .input, .select select, .textarea {
+        border-radius: 8px !important;
+    }
+
+    #result {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    div.group:hover {
+        margin-left: -4px !important;
+        margin-right: -4px !important;
+    }
+
+    div.group {
+        margin-bottom: 5px !important;
+        border-radius: 8px !important;
+        transition: all 0.1s;
+    }
+
+    img, .fill-context {
+        -moz-context-properties: fill;
+        fill: var(--fill-color) !important;
+    }
+
+    :root {
+        --discarded-text-color: var(--light-4) !important;
+    }
+
+  }
+
+:root{   
+  scrollbar-color: var(--light-1) var(--dark-base) !important; }
+
+@-moz-document url-prefix("about:") {
+:root {font-family: Nunito Variable !important;
+}
