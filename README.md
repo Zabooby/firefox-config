@@ -5,7 +5,7 @@
 
 ## Overview
 
-Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [FlyingFox](https://github.com/akshat46/FlyingFox) theme, to create a consistent ui experience across the browser. There is also a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page) start page, privacy tweaks and other quality of life changes. 
+Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [FlyingFox](https://github.com/akshat46/FlyingFox) theme, to create a consistent ui experience across the browser. Also there are privacy tweaks, quality of life changes and a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page) start page. 
 
 ## Installation 
 
