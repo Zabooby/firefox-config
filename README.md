@@ -14,5 +14,5 @@ Just my personal config files for use in Firefox. Contains extensive css tweaks,
   * Windows - C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX.
   * macOS - Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX.
 * Copy `chrome` and `user.js` to your Firefox Profile.
-* 
+* Restart Firefox.
 
