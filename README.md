@@ -14,5 +14,8 @@ Just my personal config files for use in Firefox. Contains extensive css tweaks,
   * Windows - C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX.
   * macOS - Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX.
 * Copy `chrome` and `user.js` to your Firefox Profile.
-* Restart Firefox.
+* Restart<sup>1)</sup> Firefox.
+* Customise everything to your liking.
+
+<sup>1) If you're running into trouble with a restart seemingly not working you can navigate to `about:profiles` and click the »*Restart Normally*«-Button.</sup>
 
