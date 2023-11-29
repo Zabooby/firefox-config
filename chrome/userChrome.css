@@ -1,0 +1,63 @@
+@import "config.css";
+@import "variables.css";
+@import "icons/icons.css";
+@import "urlbar/urlbar.css";
+@import "navbar/navbar.css";
+@import "popup/popup.css";
+@import "interface/interface.css";
+@import "userChrome-hover.css";
+
+* {
+  font-family: JetBrains Mono !important;
+}
+
+:root,
+panel,
+dialog,
+window {
+ --lwt-toolbarbutton-icon-fill-attention: #a1b5ce !important;
+ --button-primary-bgcolor: #a1b5ce !important;
+ --button-primary-hover-bgcolor: #a1b5ce !important;
+ --button-primary-active-bgcolor: #a1b5ce !important;
+ --in-content-primary-button-background: #a1b5ce !important;
+ --in-content-primary-button-background-hover: #a1b5ce !important;
+ --in-content-primary-button-background-active: #a1b5ce !important;
+ --input-border-color: #a1b5ce !important;
+ --uc-checkbox-checked-bgcolor: #a1b5ce !important;
+ --checkbox-checked-bgcolor: #a1b5ce !important;
+ --focus-outline-color: #a1b5ce !important;
+ --in-content-link-color: #a1b5ce !important;
+}
+
+@-moz-document url("chrome://browser/content/places/places.xhtml") {
+* {
+	--organizer-border-color: #192330 !important;
+	--organizer-separator-color: #192330 !important;
+}
+toolbar {
+		appearance: none !important;
+		background-color: #1e1d2d !important;
+		border: 0px !important;
+	}
+	listbox,
+	textbox {
+		appearance: none !important;
+		background-color: #1e1d2d !important;
+		color: #ffffff !important;
+		min-height: 20px !important;
+		padding: 0 0 0 4px !important;
+		border: 1px solid !important;
+		border-color: #4f4f4f !important;
+		border-radius: 0px !important;
+	}
+
+	#editBMPanel_rows>row>hbox>textbox,
+	#editBMPanel_rows>row>textbox,
+	#editBMPanel_tagsSelector {
+		background: #1e1d2d !important;
+		border: none !important;
+	}
+
+
+}
+

@@ -67,3 +67,33 @@
 @-moz-document url-prefix("about:") {
 :root {font-family: Nunito Variable !important;
 }
+
+@-moz-document url-prefix("chrome://"), regexp("about:(?!blank).*") {
+:root{
+ --in-content-page-background: #192330 !important; 
+ --in-content-box-background: #1E2021 !important;
+ --in-content-table-background: #1E2021 !important;
+ --in-content-table-border-color: transparent !important;
+ --in-content-table-button-background: #1E2021 !important;
+ --in-content-box-border-color: transparent !important;
+ --in-content-link-color: #a1b5ce !important;
+ --in-content-primary-button-background-active: #a1b5ce;
+}
+
+:root,
+panel,
+dialog,
+window {
+ --lwt-toolbarbutton-icon-fill-attention: #a1b5ce !important;
+ --button-primary-bgcolor: #a1b5ce !important;
+ --button-primary-hover-bgcolor: #a1b5ce !important;
+ --button-primary-active-bgcolor: #a1b5ce !important;
+ --in-content-primary-button-background: #a1b5ce !important;
+ --in-content-primary-button-background-hover: #a1b5ce !important;
+ --in-content-primary-button-background-active: #a1b5ce !important;
+ --input-border-color: #a1b5ce !important;
+ --uc-checkbox-checked-bgcolor: #a1b5ce !important;
+ --checkbox-checked-bgcolor: #a1b5ce !important;
+ --focus-outline-color: #a1b5ce !important;
+ --in-content-link-color: #a1b5ce !important;
+}
