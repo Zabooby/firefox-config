@@ -5,15 +5,18 @@
 
 ## Overview
 
-Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [FlyingFox](https://github.com/akshat46/FlyingFox) theme, to create a consistent ui experience across the browser. There is also a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page) start page, privacy tweaks and other quality of life changes. 
+Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [FlyingFox](https://github.com/akshat46/FlyingFox) theme, to create a consistent ui experience across the browser. Also there are privacy tweaks, quality of life changes and a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page) start page. 
 
 ## Installation 
 
 * Go to your Firefox profile.
-  * Linux - $HOME/.mozilla/firefox/XXXXXXX.default-XXXXXX/.
-  * Windows - C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX.
-  * macOS - Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX.
+  * Linux - $HOME/.mozilla/firefox/XXXXXXX.default-XXXXXX/
+  * Windows - C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX
+  * macOS - Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX
 * Copy `chrome` and `user.js` to your Firefox Profile.
+* Install the [Tree Style Tab](https://addons.mozilla.org/firefox/addon/tree-style-tab/) extension. 
+* Import `Tree-Style-Tab.json` in the settings (Scroll all the way to the [bottom](https://github.com/Zabooby/firefox-config/assets/78969986/fd4dde36-bb6d-4896-9485-2e11ad7f62cc)). 
+
 * Restart<sup>1)</sup> Firefox.
 * Customise everything to your liking.
 
