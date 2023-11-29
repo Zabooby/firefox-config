@@ -1,10 +1,10 @@
-### Settings for css customising ### 
+/* Settings for css customising */ 
 
 user_pref("layout.css.backdrop-filter.enabled", true);
 user_pref("svg.context-properties.content.enabled", true);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 
-### Privacy ### 
+/* Privacy */ 
 
 user_pref("toolkit.telemetry.unified", false);
 user_pref("toolkit.telemetry.enabled", false); 
