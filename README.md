@@ -22,8 +22,8 @@ Just my personal config files for use in Firefox. Contains extensive css tweaks,
 
 ## Scripts 
 
-* Restore `browser.newtab.url` to `about:config`
-This script restores the `browser.newtab.url` preference to `about:config`. Using this preference, you can set whatever you like as your New Tab page, including things like `file://` URLs that don't work with new tab override extensions. Once you install the script, just set the preference in `about:config` and it should work automatically. Make sure you don't have any other new tab extensions, or it might not work.
+* Restore `browser.newtab.url` to `about:config`, taken from [this](https://github.com/xiaoxiaoflood/firefox-scripts) repo. 
+  * This script restores the `browser.newtab.url` preference to `about:config`. Using this preference, you can set whatever you like as your New Tab page, including things like `file://` URLs that don't work with new tab override extensions. Once you install the script, just set the preference in `about:config` and it should work automatically. Make sure you don't have any other new tab extensions, or it might not work.
 
 
 
