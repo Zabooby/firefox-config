@@ -78,6 +78,11 @@
  --in-content-box-border-color: transparent !important;
  --in-content-link-color: #a1b5ce !important;
  --in-content-primary-button-background-active: #a1b5ce;
+ --in-content-primary-button-background: #1E2021;
+ --exception-button-container-background: #1E2021 !important;
+ --in-content-primary-button-background: #a1b5ce !important;
+ --in-content-primary-button-background-hover: #a1b5ce !important;
+ --in-content-primary-button-background-active: #a1b5ce !important;
 }
 
 :root,
@@ -92,6 +97,7 @@ window {
  --in-content-primary-button-background-hover: #a1b5ce !important;
  --in-content-primary-button-background-active: #a1b5ce !important;
  --input-border-color: #a1b5ce !important;
+ --in-content-primary-button-background-active: #a1b5ce;
  --uc-checkbox-checked-bgcolor: #a1b5ce !important;
  --checkbox-checked-bgcolor: #a1b5ce !important;
  --focus-outline-color: #a1b5ce !important;
