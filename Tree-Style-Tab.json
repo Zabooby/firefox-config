@@ -9,8 +9,8 @@
   "notifiedFeaturesVersion": 9,
   "optionsExpandedSections": [
     "section-appearance",
-    "section-debug",
-    "section-advanced"
+    "section-advanced",
+    "section-debug"
   ],
   "showExpertOptions": true,
   "showTabDragBehaviorNotification": false,
@@ -21,12 +21,18 @@
       "id": "device-1689082730756-36055",
       "name": "Firefox on Windows",
       "icon": "device-desktop",
-      "timestamp": 1701244760124
+      "timestamp": 1702714405732
+    },
+    "device-1687079214881-14828": {
+      "id": "device-1687079214881-14828",
+      "name": "Firefox on Windows",
+      "icon": "device-desktop",
+      "timestamp": 1702717737270
     }
   },
   "treeDoubleClickBehavior": 1,
   "userStyleRules": "",
   "userStyleRulesFieldHeight": "882px",
   "warnOnCloseTabs": false,
-  "workaroundForBug1548949DroppedTabs": "1701186887635-25896/2"
+  "workaroundForBug1548949DroppedTabs": "1702714404559-20266/2"
 }

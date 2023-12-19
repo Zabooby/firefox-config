@@ -9,14 +9,14 @@ Just my personal config files for use in Firefox. Contains extensive css tweaks,
 
 ## Installation 
 
-* Go to your Firefox profile.
+* Go to your Firefox profile:
   * Linux - $HOME/.mozilla/firefox/XXXXXXX.default-XXXXXX/
   * macOS - Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX
   * Windows - C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX
 * Copy `chrome` and `user.js` to your Firefox Profile.
 * Install the [Tree Style Tab](https://addons.mozilla.org/firefox/addon/tree-style-tab/) extension. 
 * Import `Tree-Style-Tab.json` in the settings (Scroll all the way to the [bottom](https://github.com/Zabooby/firefox-config/assets/78969986/fd4dde36-bb6d-4896-9485-2e11ad7f62cc)). 
-* Copy the contents of `scripts` to your Firefox installation folder (usually C:\Program Files\Mozilla Firefox for Windows). For Linux paths, read [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/8#issuecomment-467619800). And [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/103#issuecomment-978723534) for macOS paths.
+* Copy the contents of `scripts` to your Firefox installation folder (usually C:\Program Files\Mozilla Firefox for Windows). For Linux paths, read [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/8#issuecomment-467619800) and [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/103#issuecomment-978723534) for macOS paths.
 * Restart Firefox.
 * Customise to your liking.
 
