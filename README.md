@@ -5,7 +5,7 @@
 
 ## Overview
 
-Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [FlyingFox](https://github.com/akshat46/FlyingFox) theme, to create a consistent ui experience across the browser. Also there are privacy tweaks, quality of life changes and a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page) start page. 
+Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [FlyingFox](https://github.com/akshat46/FlyingFox) theme, to create a consistent ui experience across the browser. Also, there are privacy tweaks, quality of life changes and a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page) start page. 
 
 ## Installation 
 
@@ -16,7 +16,7 @@ Just my personal config files for use in Firefox. Contains extensive css tweaks,
 * Copy `chrome` and `user.js` to your Firefox Profile.
 * Install the [Tree Style Tab](https://addons.mozilla.org/firefox/addon/tree-style-tab/) extension. 
 * Import `Tree-Style-Tab.json` in the settings (Scroll all the way to the [bottom](https://github.com/Zabooby/firefox-config/assets/78969986/fd4dde36-bb6d-4896-9485-2e11ad7f62cc)). 
-* Copy the contents of `scripts` to your Firefox installation folder (usually C:\Program Files\Mozilla Firefox for Windows). For Linux paths, read [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/8#issuecomment-467619800) and [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/103#issuecomment-978723534) for macOS paths.
+* Copy the contents of `scripts` to your Firefox installation folder (usually C:\Program Files\Mozilla Firefox for Windows). Read [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/8#issuecomment-467619800) for Linux paths and [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/103#issuecomment-978723534) for macOS paths.
 * Restart Firefox.
 * Customise to your liking.
 
