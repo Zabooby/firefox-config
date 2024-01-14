@@ -17,6 +17,7 @@ Just my personal config files for use in Firefox. Contains extensive css tweaks,
 * Install the [Tree Style Tab](https://addons.mozilla.org/firefox/addon/tree-style-tab/) extension. 
 * Import `Tree-Style-Tab.json` in the settings (Scroll all the way to the [bottom](https://github.com/Zabooby/firefox-config/assets/78969986/fd4dde36-bb6d-4896-9485-2e11ad7f62cc)). 
 * Copy the contents of `scripts` to your Firefox installation folder (usually C:\Program Files\Mozilla Firefox for Windows). Read [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/8#issuecomment-467619800) for Linux paths and [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/103#issuecomment-978723534) for macOS paths.
+* Install the fonts in the `fonts` folder. 
 * Restart Firefox.
 * Customise to your liking.
 
