@@ -1,3 +1,12 @@
+/* Hide Tabs */
+.tabbrowser-tab {
+    display: none;
+}
+
+#tabs-newtab-button {
+    display: none;
+}
+
 #tabbrowser-arrowscrollbox {
     margin: 7px 14px 7px 14px;
 }
@@ -93,7 +102,6 @@ tab[selected="true"].identity-color-pink > .tab-stack > .tab-background{
 tab:not([selected="true"]).identity-color-pink > .tab-stack > .tab-background{
     border-top: solid 4px #F687B3 !important;
 }
-
 
 .tab-stack .tab-close-button {
     border-radius: 50%;

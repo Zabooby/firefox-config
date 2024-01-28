@@ -96,7 +96,9 @@
 :root {
     /* accentcolor */
     --lwt-accent-color: var(--dark-base) !important;
-
+    
+    --urlbarView-highlight-color: var(--dark-base) !important;
+    
     /* textcolor */
     --lwt-text-color: var(--light-base) !important;
 
@@ -128,6 +130,12 @@
 
     --lwt-toolbar-field-color: var(--light-2) !important;
 
+    --button-primary-color: var(--dark-base) !important;
+
+    --button-bgcolor: var(--dark-base) !important;
+
+    --button-active-bgcolor: var(--dark-base) !important;
+
     /* popup */
     --arrowpanel-background: var(--dark-1) !important;
     --arrowpanel-dimmed: var(--dark-2) !important; /* hover color */
@@ -153,6 +161,10 @@
     --toolbarbutton-active-background: var(--dark-base) !important;
 
     --sidebar-shadow-color: var(--dark-base);
+}
+
+    .urlbarView-row[selected] .urlbarView-row-inner {
+    background-color: var(--dark-base); !important;
 }
 
 :-moz-any(#sidebar-box, #sidebar) {

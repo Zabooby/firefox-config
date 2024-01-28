@@ -261,7 +261,10 @@
 #urlbar[open] .urlbarView {
     display: block !important;
     width: 100% !important;
+    background: 0 !important;
 }
+
+#urlbarview-
 
 #urlbar-results {
     padding: 0 !important;

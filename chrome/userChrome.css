@@ -7,27 +7,13 @@
 @import "interface/interface.css";
 @import "userChrome-hover.css";
 
+/* Global */
+
 * {
   font-family: JetBrains Mono !important;
 }
 
-:root,
-panel,
-dialog,
-window {
- --lwt-toolbarbutton-icon-fill-attention: #a1b5ce !important;
- --button-primary-bgcolor: #a1b5ce !important;
- --button-primary-hover-bgcolor: #a1b5ce !important;
- --button-primary-active-bgcolor: #a1b5ce !important;
- --in-content-primary-button-background: #a1b5ce !important;
- --in-content-primary-button-background-hover: #a1b5ce !important;
- --in-content-primary-button-background-active: #a1b5ce !important;
- --input-border-color: #a1b5ce !important;
- --uc-checkbox-checked-bgcolor: #a1b5ce !important;
- --checkbox-checked-bgcolor: #a1b5ce !important;
- --focus-outline-color: #a1b5ce !important;
- --in-content-link-color: #a1b5ce !important;
-}
+/* "about:" pages */
 
 @-moz-document url("chrome://browser/content/places/places.xhtml") {
 * {

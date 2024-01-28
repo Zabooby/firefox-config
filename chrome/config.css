@@ -1,7 +1,6 @@
 /* order of these files is important and should not be changed */
 @import "icons/extension-icons.css";
 @import "window-controls/wc-without-tabline-r.css";
-@import "hide-tabline.css";
 
 :root {
     --dark-0: #151d28;
@@ -69,6 +68,26 @@
     --red: #c9365d;
     /* --extension-icon-mask: grayscale(85%) invert(13%) sepia(80%) saturate(3107%) hue-rotate(256deg) brightness(84%)
         contrast(93%); */
+}
+
+/* Accent Color */
+
+:root,
+panel,
+dialog,
+window {
+ --lwt-toolbarbutton-icon-fill-attention: #a1b5ce !important;
+ --button-primary-bgcolor: #a1b5ce !important;
+ --button-primary-hover-bgcolor: #a1b5ce !important;
+ --button-primary-active-bgcolor: #a1b5ce !important;
+ --in-content-primary-button-background: #a1b5ce !important;
+ --in-content-primary-button-background-hover: #a1b5ce !important;
+ --in-content-primary-button-background-active: #a1b5ce !important;
+ --input-border-color: #a1b5ce !important;
+ --uc-checkbox-checked-bgcolor: #a1b5ce !important;
+ --checkbox-checked-bgcolor: #a1b5ce !important;
+ --focus-outline-color: #a1b5ce !important;
+ --in-content-link-color: #a1b5ce !important;
 }
 
 @supports -moz-bool-pref("Color.Reshading")
