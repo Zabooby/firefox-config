@@ -1,11 +1,10 @@
 # Personal Firefox Configuration
 
-<p align="center"><img width=100% src="https://github.com/Zabooby/firefox-config/assets/78969986/348a9e8c-ff25-4939-adaf-f210b182bcff" alt="Firefox screenshot"></p>
-<p align="center"><img width=100% src="https://github.com/Zabooby/firefox-config/assets/78969986/c66827dd-c36b-4db3-a3de-79f8b8e26b2d" alt="Firefox screenshot"></p>
+<p align="center"><img width=100% src="https://github.com/user-attachments/assets/dc7dadea-d031-4338-a9a0-5dc07eb836a8" alt="Firefox screenshot"></p>
 
 ## Overview
 
-Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [FlyingFox](https://github.com/akshat46/FlyingFox) theme, to create a consistent ui experience across the browser. Also, there are privacy tweaks, quality of life changes and a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page) start page. 
+Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [DownToneUI](https://github.com/oviung/DownToneUI-Firefox) theme, to create a consistent ui experience across the browser. Also, there are privacy tweaks and quality of life changes. I also use a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page) start page. 
 
 ## Installation 
 
@@ -14,11 +13,10 @@ Just my personal config files for use in Firefox. Contains extensive css tweaks,
   * macOS - Users/<USERNAME>/Library/Application Support/Firefox/Profiles/XXXXXXX.default-XXXXXXX
   * Windows - C:\Users\<USERNAME>\AppData\Roaming\Mozilla\Firefox\Profiles\XXXXXXX.default-XXXXXX
 * Copy `chrome` and `user.js` to your Firefox Profile.
-* Install the [Tree Style Tab](https://addons.mozilla.org/firefox/addon/tree-style-tab/) extension. 
-* Import `Tree-Style-Tab.json` in the settings (Scroll all the way to the [bottom](https://github.com/Zabooby/firefox-config/assets/78969986/fd4dde36-bb6d-4896-9485-2e11ad7f62cc)). 
+* Install the [Sidebery](https://addons.mozilla.org/firefox/addon/sidebery/) extension. 
+* Import `settings.json` in the settings. Help -> Import addon data. 
 * Copy the contents of `scripts` to your Firefox installation folder (usually C:\Program Files\Mozilla Firefox for Windows). Read [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/8#issuecomment-467619800) for Linux paths and [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/103#issuecomment-978723534) for macOS paths.
-* Install fonts in the `fonts` folder.
-* Make sure the default dark theme is enabled.
+* Make sure the default dark theme is enabled. Colours can be changed in 'global.css'. 
 * Restart Firefox.
 * Customise to your liking.
 
@@ -30,4 +28,4 @@ Just my personal config files for use in Firefox. Contains extensive css tweaks,
 ## Useful Links
 
 * [r/FirefoxCSS](https://www.reddit.com/r/FirefoxCSS/) - Great community for all things related to Firefox CSS tinkering. 
-* [To-Do List](https://github.com/users/Zabooby/projects/4) - Includes all the bugs I've come across and plan to fix, as well as major updates already implemented.
+* [FirefoxCSS-Store](https://github.com/FirefoxCSS-Store/FirefoxCSS-Store.github.io) - A collection site of Firefox userchrome themes, mostly from the FirefoxCSS Reddit community. 
