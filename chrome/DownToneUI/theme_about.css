@@ -1,0 +1,173 @@
+/* ============================================================================
+ * Theme the built-in pages (about:)
+ * ========================================================================= */
+
+@-moz-document
+url-prefix("about:about"),     url-prefix("about:addons"),     url-prefix("about:buildconfig"),
+url-prefix("about:cache"),     url-prefix("about:compat"),     url-prefix("about:certificate"),
+url-prefix("about:config"),    url-prefix("about:crashes"),    url-prefix("about:deleteprofile"),
+url-prefix("about:debugging"), url-prefix("about:downloads"),  url-prefix("about:editprofile"),
+url-prefix("about:home"),      url-prefix("about:license"),    url-prefix("about:loginsimportreport"),
+url-prefix("about:logins"),    url-prefix("about:logging"),    url-prefix("about:networking"),
+url-prefix("about:memory"),    url-prefix("about:newprofile"), url-prefix("about:preferences"),
+url-prefix("about:policies"),  url-prefix("about:newtab"),     url-prefix("about:privatebrowsing"),
+url-prefix("about:processes"), url-prefix("about:profiles"),   url-prefix("about:protections"),
+url-prefix("about:profiling"), url-prefix("about:rights"),     url-prefix("about:serviceworkers"),
+url-prefix("about:robots"),    url-prefix("about:studies"),    url-prefix("about:support"),
+url-prefix("about:sync-log"),  url-prefix("about:telemetry"),  url-prefix("about:url-classifier"),
+url-prefix("about:unloads"),   url-prefix("about:webauthn"),   url-prefix("about:webrtc"),
+url-prefix("about:welcome"),   url-prefix("chrome:") {{}
+  * {
+    /* Common with userChrome.css */
+    color-scheme: var(--dtui-theme-color-scheme) !important;
+    --text-color: rgb(var(--dtui-theme-text-color)) !important;
+    --focus-outline-color: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+    --focus-outline-width: var(--dtui-theme-border-width) !important;
+    --newtab-background-color: rgb(var(--dtui-theme-main-color)) !important;
+    --newtab-background-color-secondary: rgb(var(--dtui-theme-secondary-color)) !important;;
+    --newtab-text-primary-color: rgb(var(--dtui-theme-text-color)) !important;
+    --color-accent-primary: rgb(var(--dtui-theme-accent-color)) !important;
+    --color-accent-primary-hover: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-mid-alpha)) !important;
+    --color-accent-primary-active: rgb(var(--dtui-theme-accent-color)) !important;
+    --button-background-color: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+    --button-background-color-hover: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-mid-alpha)) !important;
+    --button-background-color-active: rgb(var(--dtui-theme-accent-color)) !important;
+    --button-border-radius: var(--dtui-theme-border-radius) !important;
+    --button-text-color-primary: rgb(var(--dtui-theme-text-color)) !important;
+    --button-text-color: rgb(var(--dtui-theme-text-color)) !important;
+    --border-color-deemphasized: var(--dtui-theme-border-color) !important;
+    --border-color-interactive: rgba(var(--dtui-theme-text-color), var(--dtui-theme-text-mid-alpha)) !important;
+    --background-color-canvas: rgb(var(--dtui-theme-text-color)) !important;
+    --background-color-box: rgb(var(--dtui-theme-secondary-color)) !important;
+    --toolbar-field-background-color: rgb(var(--dtui-theme-secondary-color)) !important;
+    --toolbar-field-color: rgb(var(--dtui-theme-text-color)) !important;
+    --toolbar-field-border-color: rgba(0, 0, 0, 0) !important;
+    --toolbar-field-focus-background-color: rgb(var(--dtui-theme-secondary-color)) !important;
+    --toolbar-field-focus-color: rgb(var(--dtui-theme-text-color)) !important;
+    --toolbar-field-focus-border-color: var(--focus-outline-color) !important;
+    --in-content-page-background: rgb(var(--dtui-theme-main-color)) !important;
+    --in-content-page-color: rgb(var(--dtui-theme-text-color)) !important;
+    --in-content-button-text-color-hover: rgb(var(--dtui-theme-text-color)) !important;
+    --in-content-button-text-color-active: rgb(var(--dtui-theme-text-color)) !important;
+    --in-content-button-background: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+    --in-content-button-background-hover: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-mid-alpha)) !important;
+    --in-content-button-background-active: rgb(var(--dtui-theme-accent-color)) !important;
+    --in-content-primary-button-background: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+    --in-content-primary-button-background-hover: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-mid-alpha)) !important;
+    --in-content-primary-button-background-active: rgb(var(--dtui-theme-accent-color)) !important;
+    --in-content-primary-button-text-color: rgb(var(--dtui-theme-text-color)) !important;
+    --in-content-table-background: rgb(var(--dtui-theme-secondary-color)) !important;
+    --in-content-box-border-color: var(--dtui-theme-border-color) !important;
+    --in-content-item-hover: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+    --in-content-item-selected: rgb(var(--dtui-theme-accent-color)) !important;
+    --link-color: var(--dtui-theme-accent-high-contrast) !important;
+    --link-color-hover: var(--dtui-theme-accent-high-contrast) !important;
+    --link-color-active: var(--dtui-theme-accent-high-contrast) !important;
+    --link-color-visited: var(--dtui-theme-accent-high-contrast) !important;
+    /*--border-width: var(--dtui-theme-border-width) !important;*/ /* This breaks #moz-toggle-button */
+    --input-border-color: var(--dtui-theme-border-color) !important;
+    --attention-dot-color: var(--dtui-theme-accent-high-contrast) !important;
+
+    /* Unique to userContent.css */
+    --newtab-text-secondary-color: rgba(var(--dtui-theme-text-color), var(--dtui-theme-text-mid-alpha)) !important;
+    --newtab-contextual-text-primary-color: rgb(var(--dtui-theme-text-color)) !important;
+    --newtab-contextual-text-secondary-color: rgba(var(--dtui-theme-text-color), var(--dtui-theme-text-mid-alpha)) !important;
+    --newtab-element-secondary-color: rgb(var(--dtui-theme-secondary-color)) !important;
+    --newtab-element-hover-color: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+    --newtab-element-active-color: rgb(var(--dtui-theme-accent-color)) !important;
+    --newtab-element-secondary-hover-color: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+    --newtab-element-secondary-active-color: rgb(var(--dtui-theme-accent-color)) !important;
+    --newtab-primary-element-hover-color: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+    --newtab-primary-element-active-color: rgb(var(--dtui-theme-accent-color)) !important;
+    --newtab-primary-element-text-color: rgb(var(--dtui-theme-text-color)) !important;
+    --newtab-primary-action-background: rgb(var(--dtui-theme-accent-color)) !important;
+    --newtab-button-background: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+    --newtab-button-static-background: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+    --newtab-button-static-hover-background: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-mid-alpha)) !important;
+    --newtab-button-static-active-background: rgb(var(--dtui-theme-accent-color)) !important;
+    --newtab-textbox-focus-color: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+    --newtab-textbox-focus-boxshadow: 0 0 0 0px var(--newtab-primary-action-background), 0 0 0 4px rgba(var(--newtab-primary-action-background), 0.0) !important;
+    --newtab-border-color: var(--dtui-theme-border-color) !important;
+    --newtab-weather-background-coolr: rgb(var(--dtui-theme-main-color)) !important;
+    --in-content-text-color: rgb(var(--dtui-theme-text-color)) !important;
+    --in-content-box-background-odd: rgb(var(--dtui-theme-main-color)) !important;
+    --in-content-box-info-background: rgb(var(--dtui-theme-secondary-color)) !important;
+    --in-content-table-header-background: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+    --in-content-table-border-color: var(--dtui-theme-border-color) !important;
+    --in-content-border-color: var(--dtui-theme-separator-color) !important;
+    --card-outline-color: rgb(var(--dtui-theme-secondary-color)) !important;
+    --card-shadow: none !important;
+    --card-shadow-hover: var(--dtui-theme-shadow), 0 0 0 5px rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+  }
+
+  /* Shadows */
+  panel-list, div#categories, login-list.initialized, #sidebar, .sidebar, .navigation, .customize-menu,
+  .wallpaper-list, .topsite-form {
+    box-shadow: var(--dtui-theme-shadow) !important;
+  }
+  #sidebar, .navigation { z-index: 99 !important; }
+  button.cancel, button.done { box-shadow: none !important; }
+
+  /* Borders */
+  body[dir="ltr"], input, login-list.initialized, .close-button, .dialogTitleBar, .search-inner-wrapper *,
+  .fieldpair, .connect-section__extra, .debug-target-item__additional_actions, button.done {
+    border-color: var(--dtui-theme-border-color) !important;
+  }
+  .default-input:focus, input[type="text"]:focus {  
+    outline: var(--focus-outline-width) solid var(--focus-outline-color) !important;
+  }
+  button, panel-list, richlistitem, menulist, menuitem, arrowscrollbox, input, search-textbox, select, a,
+  .default-input, .card, .sidebar * {
+    border-radius: var(--dtui-theme-border-radius) !important;
+  }
+  .tab-button[selected] { border-top-color: rgb(var(--dtui-theme-accent-color)) !important; }
+
+  /* Specific elements styling */
+  body[dir="ltr"], login-list.initialized, .category-subsection, .meta.text-deemphasized, .app, .customize-menu,
+  .close-button-wrapper, #migrationWizardDialog, .topsite-form {
+    background-color: rgb(var(--dtui-theme-main-color)) !important;
+  }
+  .default-input, .card, .privacy-detailedoption, .qr-code-box, .search-inner-wrapper *,
+  .list-item.selected, #moz-toggle-button[aria-pressed="false"] {
+    background-color: rgb(var(--dtui-theme-secondary-color)) !important;
+  }
+  .category, button.category, button[role="tab"], .tab-button, .primary-button,
+  .qa-sidebar-item, .search-inner-wrapper * {
+    color: rgb(var(--dtui-theme-text-color)) !important;
+  }
+  .primary-button, .close-button, .selector, button.cancel, button.done {
+    background-color: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+  }
+  .default-button:hover, .primary-button:hover, .close-button:hover, button.cancel:hover, button.done:hover  {
+    background-color: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-mid-alpha)) !important;
+  }
+  .default-button:active, .primary-button:active, .close-button:active, button.cancel:active, button.done:active {
+    background-color: rgb(var(--dtui-theme-accent-color)) !important;
+  }
+  body[dir="ltr"] a, .enable-custom-image-input {
+    color: var(--dtui-theme-accent-high-contrast) !important;
+  }
+
+  /* Sidebars */
+  .category:hover, button[role="tab"]:hover, .category-subsection:hover,
+  .qa-sidebar-item:hover:not(.qa-sidebar-item-selected):has(.sidebar-item__link) {
+    background-color: rgb(var(--dtui-theme-main-color)) !important;
+    border-left: 5px solid rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
+  }
+  .category[selected], .category.selected, .category-subsection.selected, .qa-sidebar-item-selected,
+  button.category[selected], button[role="tab"][selected] {
+    background-color: rgb(var(--dtui-theme-secondary-color)) !important;
+    border-left: 5px solid rgb(var(--dtui-theme-accent-color)) !important;
+  }
+  div#categories { margin: 0 !important; }
+
+  .weatherCard:not(:hover) .weatherButtonContextMenuWrapper { opacity: 0 !important; }
+  .logo-and-wordmark { display: none !important; }
+
+  .danger-button {
+    background-color: var(--in-content-danger-button-background) !important;
+    color: rgb(var(--dtui-theme-main-color)) !important;
+  }
+  .danger-button:hover { background-color: var(--in-content-danger-button-background-hover) !important; }
+  .danger-button:active { background-color: var(--in-content-danger-button-background-active) !important; }
+}

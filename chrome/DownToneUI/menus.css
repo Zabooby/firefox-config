@@ -1,0 +1,9 @@
+/* ============================================================================
+ * Hide context menu items
+ * ========================================================================= */
+
+#context-navigation, #context-sep-navigation, #context-sendimage,
+#context-bookmarkpage, #context-openlink, #context-print-selection,
+#context-savelink, #context-savelinktopocket, #context-pocket,
+#context-savepage, #context-selectall, #context-sep-selectall,
+#context-inspect-a11y { display: none !important; }

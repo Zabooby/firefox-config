@@ -1,0 +1,7 @@
+/* ============================================================================
+ * Theme the scrollbar
+ * ========================================================================= */
+
+* {
+  scrollbar-color: rgba(var(--dtui-theme-accent-color), 0.7) rgba(var(--dtui-theme-main-color), 0) !important;
+}

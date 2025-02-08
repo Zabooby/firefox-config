@@ -6,6 +6,8 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 
 /* Miscellaneous */
 
+user_pref("browser.uidensity", 1);
+user_pref("browser.uidensity", true);
 user_pref("ui.textHighlightBackground", "#213192");
 user_pref("browser.urlbar.suggest.calculator", true);
 user_pref("ui.textSelectAttentionBackground", "#29bfba");

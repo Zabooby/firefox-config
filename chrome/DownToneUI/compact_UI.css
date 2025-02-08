@@ -1,0 +1,25 @@
+/* ============================================================================
+ * Recommended about:config settings:
+ *   browser.compactmode.show = true
+ *   browser.uidensity = 1    --> Compact
+ * ========================================================================= */
+
+/* Remove top & bottom margins from urlbar */
+* { --urlbar-container-height: var(--urlbar-min-height) !important; }
+
+/* Remove padding around navbar buttons */
+.toolbarbutton-1, .chromeclass-toolbar-additional { padding: 0px !important; }
+
+/* Decrease padding on status URL, tooltips */
+tooltip, #statuspanel-label { padding: 2px !important; }
+
+/* Findbar */
+findbar { padding: 0px !important; }
+.findbar-closebutton { margin: 0px !important; }
+
+/* Window controls */
+@media (-moz-platform: windows) {
+  .titlebar-button { padding: 10px !important; }
+  :root[uidensity="compact"] .titlebar-button { padding: 8px !important; }
+  :root[uidensity="touch"] .titlebar-button { padding: 11px !important; }
+}
