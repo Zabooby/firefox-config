@@ -1,6 +1,6 @@
 # Personal Firefox Configuration
 
-<p align="center"><img width=100% src="https://github.com/user-attachments/assets/dc7dadea-d031-4338-a9a0-5dc07eb836a8" alt="Firefox screenshot"></p>
+<p align="center"><img width=100% src="https://github.com/user-attachments/assets/caa6b2c7-d71b-4050-beb4-6ee2cff97e1d" alt="Firefox screenshot"></p>
 
 ## Overview
 
