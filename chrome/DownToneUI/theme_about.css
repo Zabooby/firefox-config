@@ -95,6 +95,8 @@ url-prefix("about:welcome"),   url-prefix("chrome:") {{}
     --in-content-table-header-background: rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;
     --in-content-table-border-color: var(--dtui-theme-border-color) !important;
     --in-content-border-color: var(--dtui-theme-separator-color) !important;
+    --table-row-background-color: rgb(var(--dtui-theme-main-color)) !important;
+    --table-row-background-color-alternate: rgb(var(--dtui-theme-secondary-color)) !important;
     --card-outline-color: rgb(var(--dtui-theme-secondary-color)) !important;
     --card-shadow: none !important;
     --card-shadow-hover: var(--dtui-theme-shadow), 0 0 0 5px rgba(var(--dtui-theme-accent-color), var(--dtui-theme-accent-low-alpha)) !important;

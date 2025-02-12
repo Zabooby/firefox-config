@@ -1,1 +1,1 @@
-tooltip { color: var(--dtui-ui-text-color) !important; }
+tooltip, #statuspanel-label, #downloads-button { color: var(--dtui-ui-text-color) !important; }

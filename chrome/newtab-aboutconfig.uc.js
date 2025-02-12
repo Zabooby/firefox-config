@@ -6,9 +6,7 @@
 // @onlyonce
 // ==/UserScript==
 
-const { AboutNewTab } = ChromeUtils.import(
-  "resource:///modules/AboutNewTab.jsm"
-);
+const {AboutNewTab} = ChromeUtils.importESModule("resource:///modules/AboutNewTab.sys.mjs");
 
 UC.NewTabAboutConfig = {
   NEW_TAB_CONFIG_PATH: "browser.newtab.url",

@@ -4,7 +4,7 @@
 
 ## Overview
 
-Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [DownToneUI](https://github.com/oviung/DownToneUI-Firefox) theme, to create a consistent ui experience across the browser. Also, there are privacy tweaks and quality of life changes. I also use a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page) start page. 
+Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [DownToneUI](https://github.com/oviung/DownToneUI-Firefox) theme, to create a consistent ui experience across the browser. There are also privacy tweaks and quality of life changes. I also use a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page) start page. 
 
 ## Installation 
 
