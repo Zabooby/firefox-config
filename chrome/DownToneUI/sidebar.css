@@ -15,6 +15,10 @@
   max-width: var(--dtui-ui-sidebar-collapsed-width) !important;
   z-index: 3 !important;
 }
+#main-window[inFullscreen="true"] #sidebar-box {
+  min-width: 0.01px !important;
+  max-width: 0.01px !important;
+}
 #sidebar-box:hover, #sidebar-box[sidebarcommand="viewBookmarksSidebar"], #sidebar-box[sidebarcommand="viewHistorySidebar"] {
   #sidebar { min-width: var(--dtui-ui-sidebar-extended-width) !important; }
 }

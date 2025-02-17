@@ -104,7 +104,7 @@ url-prefix("about:welcome"),   url-prefix("chrome:") {{}
 
   /* Shadows */
   panel-list, div#categories, login-list.initialized, #sidebar, .sidebar, .navigation, .customize-menu,
-  .wallpaper-list, .topsite-form {
+  #toolbar, .wallpaper-list, .topsite-form {
     box-shadow: var(--dtui-theme-shadow) !important;
   }
   #sidebar, .navigation { z-index: 99 !important; }

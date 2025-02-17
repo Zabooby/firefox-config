@@ -1,6 +1,6 @@
 # Personal Firefox Configuration
 
-<p align="center"><img width=100% src="https://github.com/user-attachments/assets/caa6b2c7-d71b-4050-beb4-6ee2cff97e1d" alt="Firefox screenshot"></p>
+<p align="center"><img width=100% src="https://github.com/user-attachments/assets/13b37a54-6093-4006-a17d-c4f00b82abfe" alt="Firefox screenshot"></p>
 
 ## Overview
 
@@ -16,9 +16,18 @@ Just my personal config files for use in Firefox. Contains extensive css tweaks,
 * Install the [Sidebery](https://addons.mozilla.org/firefox/addon/sidebery/) extension. 
 * Import `settings.json` in the settings. Help -> Import addon data. 
 * Copy the contents of `scripts` to your Firefox installation folder (usually C:\Program Files\Mozilla Firefox for Windows). Read [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/8#issuecomment-467619800) for Linux paths and [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/103#issuecomment-978723534) for macOS paths.
-* Make sure the default dark theme is enabled. Colours can be changed in 'global.css'. 
+* Make sure the default dark theme is enabled.
 * Restart Firefox.
-* Customise to your liking.
+
+## Customisation 
+
+* Additions or updates of the default styles should be made in the following files: 
+  * `chrome/DownToneUI/override_chrome.css` for changes to `chrome/userChrome.css`
+  * `chrome/DownToneUI/override_content.css` for changes to `chrome/userContent.css`
+
+* Changing the color scheme:
+    * This can be done in `chrome/DownToneUI/_globals.css` by modifying the `--dtui-theme` variables.
+    * **NOTE:** if vertical tabs are used, these changes also have to be applied to: Sidebery settings > Style editor.
 
 ## Scripts 
 

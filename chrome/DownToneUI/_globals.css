@@ -36,6 +36,9 @@
   --dtui-ui-sidebar-extended-width: 270px;
   --dtui-ui-bookmarks-hover-debounce: 200ms;
   --dtui-ui-bookmarks-animation-speed: 200ms;
+  --dtui-ui-menu-animation-speed: 250ms;
+  --dtui-ui-window-animation-speed: 350ms;
+  --dtui-ui-urlbar-animation-speed: 300ms;
 
   --dtui-ui-bookmarks-inner-height: 20px; /* NOTE: this is affected by font typeface/size */
 }

@@ -6,18 +6,18 @@
 #toolbar-menubar, #TabsToolbar, #nav-bar { z-index: 2 !important; } /* Container member */
 #PersonalToolbar { z-index: 1 !important; } /* Bookmarks bar below the other members */
 
+/* Shadow for the Bookmarks bar */
+#PersonalToolbar { box-shadow: var(--dtui-theme-shadow) !important; }
+
 /* Smaller bookmarks overflow button in compact mode */
 :root[uidensity="compact"] #PlacesChevron {
   margin-block: 0px !important;
   height: var(--dtui-ui-bookmarks-inner-height) !important;
 }
 
-/* Shadow for the Bookmarks bar */
-#PersonalToolbar { box-shadow: var(--dtui-theme-shadow) !important; }
-
-/*#PersonalToolbar { background-color: red !important; }*/
-#navigator-toolbox:not(:hover) #PersonalToolbar:not([customizing]) { opacity: 0 !important; }
 #PersonalToolbar { --bm-height: calc((-1 * var(--bookmark-block-padding) * 2) - var(--dtui-ui-bookmarks-inner-height)); }
+#navigator-toolbox:not(:hover) #PersonalToolbar:not([customizing]) { opacity: 0 !important; }
+
 #navigator-toolbox:hover #PersonalToolbar:not([customizing]) {
   margin-top: 0px !important;
   margin-bottom: var(--bm-height) !important;
