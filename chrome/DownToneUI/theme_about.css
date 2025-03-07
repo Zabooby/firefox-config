@@ -111,11 +111,11 @@ url-prefix("about:welcome"),   url-prefix("chrome:") {{}
   button.cancel, button.done { box-shadow: none !important; }
 
   /* Borders */
-  body[dir="ltr"], input, login-list.initialized, .close-button, .dialogTitleBar, .search-inner-wrapper *,
-  .fieldpair, .connect-section__extra, .debug-target-item__additional_actions, button.done {
+  body[dir="ltr"], input, login-list.initialized, .close-button, .dialogTitleBar, .fieldpair,
+  .connect-section__extra, .debug-target-item__additional_actions, button.done {
     border-color: var(--dtui-theme-border-color) !important;
   }
-  .default-input:focus, input[type="text"]:focus {  
+  .default-input:focus, input[type="text"]:focus {
     outline: var(--focus-outline-width) solid var(--focus-outline-color) !important;
   }
   button, panel-list, richlistitem, menulist, menuitem, arrowscrollbox, input, search-textbox, select, a,
@@ -129,8 +129,8 @@ url-prefix("about:welcome"),   url-prefix("chrome:") {{}
   .close-button-wrapper, #migrationWizardDialog, .topsite-form {
     background-color: rgb(var(--dtui-theme-main-color)) !important;
   }
-  .default-input, .card, .privacy-detailedoption, .qr-code-box, .search-inner-wrapper *,
-  .list-item.selected, #moz-toggle-button[aria-pressed="false"] {
+  .default-input, .card, .privacy-detailedoption, .qr-code-box, .list-item.selected,
+  #moz-toggle-button[aria-pressed="false"] {
     background-color: rgb(var(--dtui-theme-secondary-color)) !important;
   }
   .category, button.category, button[role="tab"], .tab-button, .primary-button,

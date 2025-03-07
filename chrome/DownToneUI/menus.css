@@ -10,7 +10,8 @@
 #context-inspect-a11y { display: none !important; }
 
 /* Popup animations */
-#appMenu-popup[panelopen], #unified-extensions-panel[panelopen], .panel-no-padding[panelopen] {
+#appMenu-popup[panelopen], #unified-extensions-panel[panelopen], .panel-no-padding[panelopen],
+.bookmark-item[open] .toolbar-menupopup {
   animation: popup-animation var(--dtui-ui-menu-animation-speed) ease-out;
 }
 #window-modal-dialog[open], #customizationui-widget-panel[panelopen] {
