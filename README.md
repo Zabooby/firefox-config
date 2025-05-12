@@ -4,7 +4,7 @@
 
 ## Overview
 
-Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [DownToneUI](https://github.com/oviung/DownToneUI-Firefox) theme, to create a consistent ui experience across the browser. There are also privacy tweaks and quality of life changes. I also use a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page) start page. 
+Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [DownToneUI](https://github.com/oviung/DownToneUI-Firefox) theme, to create a consistent Nord inspired UI experience across the browser. There are also privacy tweaks and quality of life changes. I also use a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page) start page. 
 
 ## Installation 
 
@@ -24,10 +24,11 @@ Just my personal config files for use in Firefox. Contains extensive css tweaks,
 * Additions or updates of the default styles should be made in the following files: 
   * `chrome/DownToneUI/override_chrome.css` for changes to `chrome/userChrome.css`
   * `chrome/DownToneUI/override_content.css` for changes to `chrome/userContent.css`
+  * `chrome/DownToneUI/override_globals.css` for changes to `chrome/_globals.css`
 
 * Changing the color scheme:
-    * This can be done in `chrome/DownToneUI/_globals.css` by modifying the `--dtui-theme` variables.
-    * **NOTE:** if vertical tabs are used, these changes also have to be applied to: Sidebery settings > Style editor.
+    * This can be done by copying the `--dtui-theme` variables found in `chrome/DownToneUI/_globals.css` and modifying them in `chrome/DownToneUI/override_globals.css`
+    * **NOTE:** if Sidebery tabs is used, these changes also have to be applied to: Sidebery settings > Style editor.
 
 ## Scripts 
 
