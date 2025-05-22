@@ -4,7 +4,7 @@
 
 ## Overview
 
-Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [DownToneUI](https://github.com/oviung/DownToneUI-Firefox) theme, to create a consistent Nord inspired UI experience across the browser. There are also privacy tweaks and quality of life changes. I also use a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page) start page. 
+Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [DownToneUI](https://github.com/oviung/DownToneUI-Firefox) theme, to create a consistent Nord inspired UI experience across the browser. There are also quality of life, privacy and performance tweaks. I also use a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page) start page, which can be found [here](https://github.com/Zabooby/z-startpage).
 
 ## Installation 
 
