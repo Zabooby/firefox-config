@@ -42,21 +42,20 @@ user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false);
 
 //*** Performance ***//
 
-user_pref("network.proxy.type", 0);
 user_pref("gfx.canvas.accelerated", true);
 user_pref("layers.gpu-process.enabled", true);
 user_pref("network.http.rcwn.enabled", false);
-user_pref("network.user_prefetch-next", true);
+user_pref("network.prefetch-next", true);
 user_pref("media.cache_readahead_limit", 9000);
 user_pref("media.cache_resume_threshold", 3600);
+user_pref("network.dns.disableprefetch", false);
 user_pref("media.memory_cache_max_size", 1048576);
 user_pref("image.mem.decode_bytes_at_a_time", 32768);
-user_pref("network.dns.disableuser_prefetch", false);
 user_pref("media.hardware-video-decoding.enabled", true);
 user_pref("network.predictor.enable-hover-on-ssl", true);
+user_pref("network.dns.disableprefetchFromHTTPS", false);
 user_pref('dom.script_loader.bytecode_cache.strategy', 2);
 user_pref("media.memory_caches_combined_limit_kb", 2560000);
-user_pref("network.dns.disableuser_prefetchFromHTTPS", false);
 user_pref("layout.css.grid-template-masonry-value.enabled", true);
 
 //*** Annoyances ***//
