@@ -96,4 +96,11 @@ export class InstallRDF extends Manifest {
 
     return result;
   }
+
+  getProps(props) {
+    let root = this.ds.getResource(RDFURI_INSTALL_MANIFEST_ROOT);
+    let result = {};
+    this._readProps(root, result, props);
+    return result;
+  }
 }

@@ -79,7 +79,7 @@ export const xPref = {
 
     Services.prefs.addObserver(prefPath, this.observer);
     return {
-      prefPath: prefPath,
+      prefPath,
       observer: this.observer
     };
   },

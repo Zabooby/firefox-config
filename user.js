@@ -1,11 +1,9 @@
 //*** UI ***//
 
-user_pref("ui.submenuDelay", 0);
 user_pref("browser.uidensity", 1);
 user_pref("sidebar.revamp", false);
 user_pref("widget.windows.mica.popups", 0);
 user_pref("browser.compactmode.show", true);
-user_pref("dom.element.animate.enabled", true);
 user_pref("widget.non-native-theme.scrollbar.style", 2);
 user_pref("widget.non-native-theme.use-theme-accent", true);
 user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5);
@@ -98,13 +96,11 @@ user_pref("browser.tabs.min_inactive_duration_before_unload", 600000);
 user_pref("dom.ipc.processPriorityManager.backgroundUsesEcoQoS", false);
 
 user_pref("layout.frame_rate", -1);
-user_pref("content.maxtextrun", 8191);
 user_pref("content.notify.ontimer", true);
 user_pref("nglayout.initialpaint.delay", 5);
 user_pref("content.interrupt.parsing", true);
 user_pref("content.notify.interval", 100000);
 user_pref("content.switch.threshold", 500000);
-user_pref("content.max.tokenizing.time", 1000000);
 user_pref("gfx.content.skia-font-cache-size", 32);
 
 user_pref("webgl.max-size", 16384);
@@ -125,7 +121,6 @@ user_pref("browser.ml.enable", false);
 user_pref("browser.ml.chat.sidebar", false);
 user_pref("browser.ml.chat.enabled", false);
 user_pref("browser.ml.chat.shortcuts", false);
-user_pref("extensions.pocket.enabled", false);
 user_pref("full-screen-api.warning.delay", -1);
 user_pref("full-screen-api.warning.timeout", 0);
 user_pref("extensions.getAddons.showPane", false);
