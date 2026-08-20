@@ -4,7 +4,7 @@
 
 ## Overview
 
-Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [DownToneUI](https://github.com/oviung/DownToneUI-Firefox) theme, to create a consistent Nord inspired UI experience across the browser. There are also quality of life, privacy and performance tweaks. I also use a custom start page based on the [Excalith](https://github.com/excalith/excalith-start-page).
+Just my personal config files for use in Firefox. Contains extensive css tweaks, based on the [DownToneUI](https://github.com/oviung/DownToneUI-Firefox) theme to create a consistent Nord inspired UI experience across the browser. There are also quality of life, privacy and performance tweaks. 
 
 ## Installation 
 
@@ -15,7 +15,6 @@ Just my personal config files for use in Firefox. Contains extensive css tweaks,
 * Copy `chrome` and `user.js` to your Firefox Profile.
 * Install the [Sidebery](https://addons.mozilla.org/firefox/addon/sidebery/) extension. 
 * Import `settings.json` to: Sidebery settings -> Help -> Import addon data. 
-* Copy the contents of `scripts` to your Firefox installation folder (usually C:\Program Files\Mozilla Firefox for Windows). Read [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/8#issuecomment-467619800) for Linux paths and [this](https://github.com/xiaoxiaoflood/firefox-scripts/issues/103#issuecomment-978723534) for macOS paths.
 * Make sure the default dark theme is enabled.
 * Restart Firefox.
 
@@ -29,11 +28,6 @@ Just my personal config files for use in Firefox. Contains extensive css tweaks,
 * Changing the color scheme:
     * This can be done by copying the `--dtui-theme` variables found in `chrome/DownToneUI/_globals.css` and modifying them in `chrome/DownToneUI/override_globals.css`
     * **NOTE:** if Sidebery tabs is used, these changes also have to be applied to: Sidebery settings > Style editor.
-
-## Scripts 
-
-* Restore `browser.newtab.url` to `about:config`, added from [this](https://github.com/xiaoxiaoflood/firefox-scripts) repo. 
-  * This script restores the `browser.newtab.url` preference to `about:config`. Using this preference, you can set whatever you like as your New Tab page, including things like `file://` URLs that don't work with new tab override extensions. Once you install the script, just set the preference in `about:config` and it should work automatically. Make sure you don't have any other new tab extensions, or it might not work.
 
 ## Useful Links
 
